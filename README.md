@@ -11,7 +11,23 @@ After that we checked for various algorithms which gave accuracy and precison sc
 Then we trained the mode and pickled the model and used it.
 For the website part I've used streamlit.
 
-#Output
+# Setup
+
+Step1: Download the zip file of the project.
+
+Step2: Open PyCharm and create new project and name it.
+
+Step3: After the project is created copy the files - app.py, model.pkl, vectorizer.pkl and paste it in the PyCharm project.
+
+Step4: Go in the PyCharm terminal and install Streamlit Python framework - pip install streamlit
+
+Step5: Also install nltk by 'pip install nltk' and sklearn by 'pip install scikit-learn'
+
+Step6: Atlast write "streamlit run app.py" on the terminal the project will be implemented.
+
+
+
+# Output
 
 ![Screenshot 2024-09-09 141548](https://github.com/user-attachments/assets/83c9c252-08a3-4ce0-9258-b6694abe9779)
 
