@@ -2,6 +2,50 @@
 
 In today's digital era, the widespread use of mobile communication has led to an increase in unsolicited and malicious messages, commonly referred to as spam. These spam messages can range from harmless advertisements to fraudulent schemes, posing a significant threat to users. To address this issue, the "SMS Spam Classification" project aims to build a robust machine learning model capable of distinguishing between legitimate (ham) messages and spam.
 
+# Project Synopsis: SMS Spam Classification
+
+## Objective:
+The primary goal of this project is to build an interactive SMS spam classification application that identifies and categorizes SMS messages as either "Spam" or "Ham" (not spam).
+
+## Framework and Algorithm Used:
+
+Framework: Streamlit – A Python-based framework for creating interactive web applications.
+Algorithm: Multinomial Naive Bayes (Multinomial NB) – A probabilistic machine learning algorithm suitable for text classification tasks, leveraging the frequency of words for prediction.
+
+# Features of the Application:
+
+## User-friendly Interface:
+
+Developed using Streamlit, the application offers a clean and interactive user interface.
+Users can input text messages directly into the app for real-time classification.
+## Real-time Classification:
+
+The app processes the input SMS and classifies it as "Spam" or "Ham" based on the trained model.
+
+# Implementation Details:
+
+## Data Preprocessing:
+
+Data cleaning to remove noise (e.g., punctuation, stop words).
+Tokenization and conversion of text to lowercase.
+Transformation into a Bag of Words (BoW) or TF-IDF representation for numerical representation of the text.
+## Model Training:
+
+A Multinomial Naive Bayes classifier was trained on a labeled dataset of SMS messages.
+The dataset was split into training and testing subsets to evaluate the model's performance.
+## Deployment:
+
+The model was integrated into a Streamlit application to enable real-time predictions.
+# Key Outcomes:
+
+Achieved high classification accuracy, indicating the model's ability to effectively distinguish between spam and ham messages.
+The application provides a practical and scalable solution for SMS spam filtering.
+# Future Scope:
+
+Integration with APIs to classify live SMS feeds.
+Enhancements in the user interface for better visualization of classification probabilities.
+Incorporation of additional models or techniques to improve accuracy further.
+
 # Thoughts
 
 The project is simple, we work on some dataset and try to find out what are the trends and what is is the pattern, after finding out the pattern one can get idea of what I've uploaded using the dataset.
